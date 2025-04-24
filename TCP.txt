@@ -1,0 +1,6 @@
+TCP is a reliable conntection oriented protocol that defines how data is transported
+
+2 host systems establish a connection by doing a 3 way handshake.
+The message is sent by the application/process to a socket to the TCP connection
+TCP adds a tcp header creating a segment.
+

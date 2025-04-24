@@ -1,0 +1,8 @@
+Network applications are the reason why we need a computer network.
+
+Application layer allows apps to access network resources.
+Structues/encodes data according to protocol rules.
+
+Protocols like http,dns,smtp work at the application level.
+
+Application/processes communicate and establish conenction through sockets.

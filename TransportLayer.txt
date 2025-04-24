@@ -1,0 +1,17 @@
+Purpose is to provide Logical communication service to appliction running on hosts.
+
+Transport layer tranforms the messages it recieves from the application layer into segments.
+
+It breaks the message into chunks/segments and adds a transport layer header.
+
+Transport Layer provides logical communication between application/processes
+Network Layer provids logical communication between host/computers.
+
+2 transport layer protocols: UDP AND TCP
+UDP = Unreliable,connectionless,
+TCP = Reliable,connection oriented
+
+demultiplexing is the process of transport layer segments being delivered to a socket on the recieving host.
+ The job of gathering data chunks at the source host from different sockets,encapsulating each data chunk with header information to
+create segments, and passing the segments to the network layer is called multiplexing.
+

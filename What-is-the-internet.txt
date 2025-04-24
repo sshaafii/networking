@@ -1,0 +1,29 @@
+
+
+The internet is a bunch of end systems connected to each other. 
+They share and request services like email,http,file transfer.
+The end systems communicate with each other using different protocols.
+These protocols are known as TCP/IP
+These protocols define the rules end systems/hosts will follow to share/recieve services/data
+
+Application - http,dns,smtp (email)
+transport - transports application layer data/messages betweek applications using UDP AND TCP - Segments data
+Network - Transports datagrams to transport layer
+Link - Routes datagram through routers
+Physical - transports bits through physical medium like cables
+
+OSI MODEL
+application layer
+presentation layer
+session layer
+transport layer
+network layer
+data link layer
+physical layer
+
+As data moves down the 5 layer TCP/IP stack it encapsulates.
+
+At the application layer a message is passed down to the transport layer.
+At the transport layer it adds header information to the message and passes the segment to the network layer.
+Network layer adds info such as source and destination address. Passes datagram to link layer.
+Link layer adds info and creates frame which gets passed down to physical layer.
